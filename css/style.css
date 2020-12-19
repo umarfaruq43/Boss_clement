@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+/* *{
+    border: 1px solid red;
+} */
+
+.img {
+  background-image: url(../img/m.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+}
+.dim {
+  background-color: rgba(0, 0, 0, 0.575);
+}
+
+.color {
+  background-color: #319873;
+}
+.name {
+  font-weight: 600;
+  font-size: 3em;
+  font-family: Quicksand;
+}
+.title {
+  font-weight: bold;
+  padding-top: 0;
+  margin-top: 0;
+}
+.intro-letter {
+  font-family: Quicksand;
+}
+.sub_header {
+  font-family: Quicksand;
+  padding: 0 3em;
+}
+.story a {
+  text-decoration: none;
+  color: #319873;
+  font-family: Quicksand;
+  font-weight: 600;
+}
+
+.rec_card {
+  background-color: #319873;
+  border-radius: 50px;
+  width: 27px;
+  height: 1px;
+
+  border: 2px solid #319873;
+}
+.icons a {
+  text-decoration: none;
+  color: #fff;
+}
+.icons a:hover {
+  color: #319873;
+}
+.social {
+  margin-right: 1em;
+}
+/*===== MAIN PAGE INFOMATION =====*/
+.main_info {
+  padding: 4em 0 10em 0;
+  background-color: #e5e5e5;
+}
+.main_info h4 {
+  /* width: 230px; */
+  font-weight: bolder;
+  font-size: 2em;
+}
+.main_info h5 {
+  font-size: 1.5em;
+}
+.gmail-link a {
+  color: #319873;
+  text-decoration: none;
+}
+.gmail-link a:hover {
+  color: green;
+}
+/* ===THE TWO EXPERINCE INFOMATION=== */
+.experience {
+  display: flex;
+}
+.big {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 70px;
+  color: #319873;
+}
+.year {
+  padding: 1em 0 0 0;
+  font-size: 1.3em;
+  font-weight: 700;
+  margin: 0 0 0 1em;
+}
+.year2 {
+  padding: 1em 0 0 0;
+  font-size: 1.3em;
+  font-weight: 700;
+}
+
+/* ===DETAILS ABOUT EXPERIENCE=== */
+
+section {
+  position: relative;
+  top: -80px;
+}
+
+.card1 {
+  margin: 0 0.2em;
+  background-color: #319873;
+  text-align: center;
+  padding-bottom: 2em;
+  padding-top: 4em;
+  font-weight: bolder;
+  font-size: 1.5em;
+  color: #fff;
+  max-width: 250px;
+  font-family: Quicksand;
+}
+.box1_content {
+}
+.card2,
+.card3 {
+  font-family: Quicksand;
+  margin: 0 0.2em;
+  background-color: #424657;
+  text-align: center;
+  padding-top: 4em;
+  padding-bottom: 2em;
+  font-weight: bold;
+  font-size: 1.3em;
+  color: #fff;
+  line-height: 1.7em;
+}
+
+/* ===============THE PORPFOLIO EDIT========== */
+
+.special {
+  color: #319873;
+}
+.portfolio {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.portfolio img {
+  width: 100%;
+  height: 100%;
+}
+
+/* ===============THE Blog EDIT========== */
+
+.blog {
+  background-color: #e5e5e5;
+}
+.blog-img {
+  width: 100%;
+}
+.blog-img img {
+  width: 100%;
+  height: 450px;
+}
+
+.date {
+  margin-right: 1.5%;
+  font-size: large;
+}
+.date-word {
+  font-weight: bold;
+}
+.quote-name {
+  font-family: Quicksand;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+}
+.auhtor {
+  margin-left: 19px;
+  font-style: normal;
+  font-size: 18px;
+}
+.box {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-evenly;
+}
+.box1 {
+  background-color: rgb(49, 152, 115);
+}
+.box1,
+.box2,
+.box3,
+.box4 {
+  padding: 0.5em 0;
+  width: 80px;
+}
+.box2,
+.box3,
+.box4 {
+  margin-left: 2px;
+  background-color: #757783;
+}
+/* *{
+    border: 1px solid red;
+} */
+.website {
+  padding-top: 5em;
+}
+.website a {
+  text-decoration: none;
+  color: #319873;
+  font-weight: bold;
+  font-size: large;
+}
+.chat {
+  line-height: 4em;
+}
+
+.chat p {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+}
+/* ===========\Spaecial/=========== */
+
+@media screen and (max-width: 480px) {
+  .year {
+  padding: 1.6em 0 0 0;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 0 0 0em;
+}
+.year2 {
+  padding: 1em 0 0 0;
+  font-size: 16px;
+  font-weight: 700;
+}
+}
